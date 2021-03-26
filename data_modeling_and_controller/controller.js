@@ -99,10 +99,3 @@ async function dummy_data(model) {
 	console.log(item);
 }
 
-/**
- * GET  / Read many
- * GET / :id Read one
- * POST / Create one
- * PUT / :id Update One
- * DELETE / :id Delete One
- */

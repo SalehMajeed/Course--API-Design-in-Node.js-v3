@@ -6,7 +6,7 @@ const app = express();
 
 app.use('/api', router);
 
-router.route('/').get(controller.get_one(Item)).post(controller.create_one(Item));
+router.route('/').get(controller.get_many(Item)).post(controller.create_one(Item));
 
 router.route('/:id').get(controller.get_one(Item)).put(controller.update_one(Item)).delete(controller.remove_one(Item));
 
